@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 20t Discord
+    url: https://discord.gg/yFnxh7hur3
+    about: Ask questions, get help, and discuss ideas with the community.
+  - name: Security reporting
+    url: https://github.com/20teeth/.github/blob/main/SECURITY.md
+    about: Please report security vulnerabilities privately.
