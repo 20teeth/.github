@@ -1,0 +1,26 @@
+name: Documentation improvement
+description: Suggest improvements to docs, examples, or onboarding.
+title: "[Docs]: "
+labels: ["documentation"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What should be improved?
+      description: What page/file/section is unclear or missing?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested change
+      description: What would make it better?
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues and did not find a duplicate.
+          required: true
